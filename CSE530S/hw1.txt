@@ -1,0 +1,21 @@
+tupledesc getType() test: correct
+tupledesc NameToId() test: correct
+tupledesc lookup invalid name test: correct
+tupledesc getSize() test: correct
+tupledesc equals() test: correct
+tuple getDesc() test: correct
+tuple setField() test: correct
+tuple toString() test: correct
+catalog tableId() test: correct
+catalog table name test: correct
+catalog table desc test: correct
+heapfile numpages test: correct
+heapfile read page test: correct
+heapfile getAllTuples test: correct
+heapfile multi page test: incorrect(-4)
+heapfile write test: incorrect(-2)
+heapfile remove test: incorrect(-2)
+heap page getters test: correct
+heap page add test: incorrect(-2)
+heap page remove test: incorrect(-2)
+Total: 88 / 100

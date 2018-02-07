@@ -1,0 +1,22 @@
+relation select test: correct
+relation project test: correct
+relation rename test: correct
+relation join test: correct
+relation aggregate test: correct
+relation group by test: correct
+query from test: correct
+query select test: correct
+query join test: correct
+query aggregate test: correct
+query group by test: correct
+query select all test: correct
+Exception on multi join query (-3)
+null
+java.util.NoSuchElementException
+	at hw1.TupleDesc.nameToId(TupleDesc.java:80)
+	at hw1.Query.execute(Query.java:159)
+	at hw1.hw2tests.testMultiJoinQuery(hw2tests.java:216)
+	at hw1.hw2tests.main(hw2tests.java:410)
+query as  test: incorrect(-3)
+query order of operations test: incorrect(-3)
+Total: 91 / 100
